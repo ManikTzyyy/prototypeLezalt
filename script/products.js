@@ -7,7 +7,7 @@ export const products = [
     price: "IDR 30.000",
     image: "../assets/product/c.png",
     categories: ["spicy", "hot"],
-    link: "https://google.com",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Shrimp Paste x Chili Salt",
@@ -16,7 +16,7 @@ export const products = [
     price: "IDR 25.000",
     image: "../assets/product/s.png",
     categories: ["umami", "spicy"],
-    link: "#",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Black Pepper Salt",
@@ -24,7 +24,7 @@ export const products = [
     price: "IDR 20.000",
     image: "../assets/product/b.png",
     categories: ["spicy", "peppery"],
-    link: "#",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Garlic Salt",
@@ -32,7 +32,7 @@ export const products = [
     price: "IDR 20.000",
     image: "../assets/product/g.png",
     categories: ["aromatic", "savory"],
-    link: "#",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Rosemary Salt",
@@ -40,7 +40,7 @@ export const products = [
     price: "IDR 20.000",
     image: "../assets/product/r.png",
     categories: ["aromatic", "piney"],
-    link: "#",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Rosemary Salt",
@@ -48,7 +48,7 @@ export const products = [
     price: "IDR 20.000",
     image: "../assets/product/r.png",
     categories: ["aromatic", "piney"],
-    link: "#",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Shrimp Paste x Chili Salt",
@@ -57,7 +57,7 @@ export const products = [
     price: "IDR 25.000",
     image: "../assets/product/s.png",
     categories: ["umami", "spicy"],
-    link: "#",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Garlic Salt",
@@ -65,7 +65,7 @@ export const products = [
     price: "IDR 20.000",
     image: "../assets/product/g.png",
     categories: ["aromatic", "savory"],
-    link: "#",
+    link: "https://wa.link/ctvf74",
   },
   {
     title: "Chili Salt",
@@ -74,7 +74,7 @@ export const products = [
     price: "IDR 30.000",
     image: "../assets/product/c.png",
     categories: ["spicy", "hot"],
-    link: "https://google.com",
+    link: "https://wa.link/ctvf74",
   },
   
 
