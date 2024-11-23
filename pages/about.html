@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+
+    <!-- Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- mystyle -->
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="nav-logo">
+        <a href="">
+          <img src="../assets/logo/logonotext.png" alt="" />
+        </a>
+      </div>
+      <div class="nav-list">
+        <a href="../index.html">Home</a>
+        <a class="nav-active" href="#">About Us</a>
+        <a href="product.html">Our Product</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+      <div class="nav-icon">
+        <button onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- about -->
+
+    <div
+      id="about"
+      style="
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0)
+          ),
+          url('../assets/img/bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+      "
+    >
+      <div class="main-about">
+        <h3>About us</h3>
+        <div class="column">
+          <div class="text">
+            <h4>Our Visi</h4>
+            <p>
+              <i>
+                “Bringing the rich flavors and authenticity of Balinese traditions
+              to the world's kitchens while empowering local farmers and
+              preserving cultural heritage.”
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+
+    <!-- salt proses -->
+    <div id="les-salt">
+      <h3>Les Village Salt</h3>
+      <div class="container-les">
+        <div class="column">
+          <h4>Traditional Les Salt</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+            sequi consequuntur earum, alias explicabo...
+          </p>
+          <h6>How les people make salt :</h6>
+          <div class="row">
+            <div class="column">
+              <img
+                class="step"
+                src="../assets/img/2.jpg"
+                alt=""
+                onclick="changeContent(1, this)"
+              />
+              <h5>1</h5>
+            </div>
+            <div class="column">
+              <img
+                class="step"
+                src="../assets/img/3.jpg"
+                alt=""
+                onclick="changeContent(2, this)"
+              />
+              <h5>2</h5>
+            </div>
+            <div class="column">
+              <img
+                class="step"
+                src="../assets/img/4.jpg"
+                alt=""
+                onclick="changeContent(3, this)"
+              />
+              <h5>3</h5>
+            </div>
+            <div class="column">
+              <img
+                class="step"
+                src="../assets/img/5.jpg"
+                alt=""
+                onclick="changeContent(4, this)"
+              />
+              <h5>4</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end salt proses -->
+
+    <!-- team -->
+    <div id="team">
+      <div class="row">
+        <h3>Team</h3>
+        <img src="../assets/logo/logonotext.png" alt="" />
+        <h3>Le'Zalt</h3>
+      </div>
+      <div class="container-team"></div>
+    </div>
+    <!-- end team -->
+
+    <script src="../script/generateSalt.js"></script>
+
+    <script src="../script/generateTeam.js"></script>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".navbar").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

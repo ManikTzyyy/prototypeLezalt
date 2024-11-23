@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le'Zalt</title>
+
+    <!-- Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- mystyle -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="nav-logo">
+        <a href="">
+          <img src="assets/logo/logonotext.png" alt="" />
+        </a>
+      </div>
+      <div class="nav-list">
+        <a class="nav-active" href="#">Home</a>
+        <a href="pages/about.html">About Us</a>
+        <a href="pages/product.html">Our Product</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-icon">
+        <button onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- home -->
+    <div id="home">
+      <div class="container-home">
+        <div class="circle"></div>
+
+        <div class="home">
+          <div class="home-product">
+            <div class="column">
+              <h3>Le'Zalt</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                aspernatur voluptatibus commodi, ullam cupiditate maiores. Sint
+              </p>
+
+              <div class="button">
+                <a href="" style="--clr: #fd8b51">
+                  <span>Check it Now</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <img src="assets/product/products.png" alt="" />
+
+          <div class="home-desc">
+            <div class="column">
+              <h5 id="flavor-title">Flavor</h5>
+              <p id="flavor-desc">Check Your Taste!!</p>
+            </div>
+            <div class="row">
+              <img class="flavor" src="assets/product/chili.png" alt="" />
+              <img class="flavor" src="assets/product/garlic.png" alt="" />
+              <img class="flavor" src="assets/product/black.png" alt="" />
+              <img class="flavor" src="assets/product/rosemary.png" alt="" />
+              <img class="flavor" src="assets/product/shrimp.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end home -->
+
+    <!-- insight -->
+
+    <div id="insight">
+      <div class="container-insight">
+        <div class="row">
+          <div class="column">
+            <h4>999</h4>
+            <p>Customer</p>
+          </div>
+          <div class="column">
+            <h4>999</h4>
+            <p>Follower</p>
+          </div>
+          <div class="column">
+            <h4>999</h4>
+            <p>Shop</p>
+          </div>
+          <div class="column">
+            <h4>999</h4>
+            <p>Happy Customer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end insight -->
+
+    <!-- benefits -->
+    <div id="benefits">
+      <div class="container-benefits">
+        <h3>Why Le'Zalt?</h3>
+        <div class="row">
+          <div class="column">
+            <img src="assets/svg/2.png" alt="" />
+            <h5>lorempipsum</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+              optio, obcaecati nam nesciunt doloremque doloribus consequatur
+              ipsam facere sapiente veniam qui
+            </p>
+          </div>
+          <div class="column">
+            <img src="assets/svg/3.png" alt="" />
+            <h5>lorempipsum</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+              optio, obcaecati nam nesciunt doloremque doloribus consequatur
+              ipsam facere sapiente veniam qui
+            </p>
+          </div>
+          <div class="column">
+            <img src="assets/svg/1.png" alt="" />
+            <h5>lorempipsum</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+              optio, obcaecati nam nesciunt doloremque doloribus consequatur
+              ipsam facere sapiente veniam qui
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end benefits -->
+
+    <!-- abt product -->
+    <div id="abt-product">
+      <div class="abs">
+        <h3>Our Product</h3>
+        <div class="column"></div>
+      </div>
+      <div class="container-abt-product">
+        <div class="row">
+         
+            <img src="assets/product/products.png" alt="" />
+          
+          <div class="column">
+            <h5>Flavor</h5>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laboriosam consequuntur iste sunt alias fugit necessitatibus dicta
+              ad inventore! Mollitia numquam est veritatis aperiam beatae qui
+              assumenda quo excepturi doloribus deserunt?
+            </p>
+            <h5>IDR 20.000</h5>
+            <div class="button">
+              <a href="pages/product.html" style="--clr: #fd8b51">
+                <span>More Product</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end abt product -->
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container-contact">
+        <h3>Contact Us</h3>
+        <div class="row">
+          <div class="column">
+            <!-- form -->
+            <form
+              action="mailto:manik.yogantara@undiksha.ac.id?body=Message"
+              method="get"
+            >
+              <div class="column">
+                <label class="form-label">Name</label>
+                <input name="subject" type="text" class="form-control" placeholder="Enter your name" />
+              </div>
+              <div class="column">
+                <label class="form-label">Message</label>
+                <input name="body" type="text" class="form-control" placeholder="Enter your Massage" />
+              </div>
+              <input
+                type="submit"
+                class="button-input"
+                style="--clr: #fd8b51"
+              />
+            </form>
+            <!-- button -->
+          </div>
+          <h5>Or</h5>
+          <div class="column">
+            <h6>Get In Touch With Us</h6>
+            <div class="row">
+              <a href=""
+                ><div class="social-button">
+                  <i class="fa-brands fa-instagram"></i></div
+              ></a>
+              <a href=""
+                ><div class="social-button">
+                  <i class="fa-brands fa-facebook"></i></div
+              ></a>
+              <a href=""
+                ><div class="social-button">
+                  <i class="fa-brands fa-whatsapp"></i></div
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- partner -->
+    <div id="partner">
+      <h3>Our Partner</h3>
+      <div class="container-partner">
+        <img src="assets/logo/wmk.png" alt="" />
+        <img src="assets/logo/rumahusahacerik.png" alt="" />
+      </div>
+    </div>
+    <!-- end partner -->
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".navbar").classList.toggle("active");
+      }
+    </script>
+
+    <script src="script/flavor.js"></script>
+  </body>
+</html>
